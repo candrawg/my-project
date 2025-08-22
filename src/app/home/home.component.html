@@ -1,0 +1,26 @@
+<p>home works!</p>
+<h3 class="text-3xl">Daftar Produk Buku:</h3>
+<ul>
+  @for (buku of produkBuku; track buku) {
+    <li>{{ buku }}</li>
+  }
+</ul>
+
+<hr class="my-4">
+
+<span matBadge="{{objectBuku.length}}" matBadgeOverlap="false" >Produk</span>
+<br>
+<button (click)="tambahObject()" class="bg-blue-600 p-3 rounded-xl my-4 text-slate-50 cursor-pointer hover:bg-blue-700  hover:rounded-4xl transition-all duration-300">Add</button>
+
+<h3 class="text-3xl">Daftar Object Buku:</h3>
+@for (obj of objectBuku; track obj) {
+    <p>Id: {{obj.id}}</p>
+    <p>Judul: {{obj.judul}}</p>
+    <p>Penulis: {{obj.penulis}}</p>
+    <button (click)="hapusObject(obj)" class="bg-rose-500 hover:bg-rose-600 p-3 rounded-xl my-4 text-slate-50 cursor-pointer hover:rounded-3xl transition-all duration-300">Delete</button>
+    <br>
+}
+
+@if (objectBuku.length == 0) {
+  <p>Data Not Found!</p>
+}

@@ -1,0 +1,79 @@
+[
+    {
+        "image_url": "https://cdn.gramedia.com/uploads/items/ID_EMK2015MTH02MWPDC_C.jpg",
+        "judul": "Membuat Website PHP dengan CodeIgniter",
+        "genre": "Programmer",
+        "penerbit": "PT Elex Media"
+    }
+,
+    {
+        "image_url": "https://ebooks.gramedia.com/ebook-covers/2876/general_small_covers/ID_EMK2013MTH03RFLAP_S.jpg",
+        "judul": "Restorasi Foto Lama Adobe Photoshop CS",
+        "genre": "Desain Grafis",
+        "penerbit": "PT Elex Media"
+    }
+    ,
+    {
+        "image_url": "https://ebooks.gramedia.com/ebook-covers/2955/general_small_covers/ID_EMK2013MTH03MEUM_S.jpg",
+        "judul": "MS Excel 2007 untuk Pemasaran",
+        "genre": "Office",
+        "penerbit": "PT Elex Media"
+    }
+    ,
+    {
+        "image_url": "https://ebooks.gramedia.com/ebook-covers/30477/general_small_covers/ID_EMK2016MTH02MPMFL_S.jpg",
+        "judul": "Mengenal PHP dengan Framework Laravel",
+        "genre": "Programmer",
+        "penerbit": "PT Elex Media"
+    }
+    ,
+    {
+        "image_url": "https://ebooks.gramedia.com/ebook-covers/2876/general_small_covers/ID_EMK2013MTH03RFLAP_S.jpg",
+        "judul": "Restorasi Foto Lama Adobe Photoshop CS",
+        "genre": "Desain Grafis",
+        "penerbit": "PT Elex Media"
+    }
+    ,
+    {
+        "image_url": "https://ebooks.gramedia.com/ebook-covers/33177/general_small_covers/ID_EMK2016MTH06OAAE_S.jpg",
+        "judul": "Otodidak After Effects",
+        "genre": "Desain Grafis",
+        "penerbit": "Jubilee Digital"
+    }
+    ,
+    {
+        "image_url": "https://ebooks.gramedia.com/ebook-covers/33333/general_small_covers/ID_JUSE2016MTH07PDVCUP_S.jpg",
+        "judul": "Pemrograman Database Visual C#",
+        "genre": "Desain Grafis",
+        "penerbit": "Jubilee Digital"
+    }
+    ,
+    {
+        "image_url": "https://ebooks.gramedia.com/ebook-covers/2876/general_small_covers/ID_EMK2013MTH03RFLAP_S.jpg",
+        "judul": "Restorasi Foto Lama Adobe Photoshop CS",
+        "genre": "Desain Grafis",
+        "penerbit": "Jubilee Digital"
+    }
+    ,
+    {
+        "image_url": "https://ebooks.gramedia.com/ebook-covers/8315/general_small_covers/ID_EMK2013MTH10TMOSDP_S.jpg",
+        "judul": "Trik Membuat Toko Online dengan Powerpoint",
+        "genre": "Desain Grafis",
+        "penerbit": "PT Elex Media"
+    }
+    ,
+    {
+        "image_url": "https://ebooks.gramedia.com/ebook-covers/3092/general_small_covers/ID_EMK2013MTH04TCMPC_S.jpg",
+        "judul": "Trik Cepat Menguasai Photoshop CS5",
+        "genre": "Desain Grafis",
+        "penerbit": "Jubilee Digital"
+    }
+    ,
+    {
+        "image_url": "https://cdn.gramedia.com/uploads/items/ID_EMK2017MTH03PCUP_C__w149_hauto.jpg",
+        "judul": "Photoshop CC 2017 untuk Pemula",
+        "genre": "Desain Grafis",
+        "penerbit": "PT Elex Media"
+    }
+
+]

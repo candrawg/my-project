@@ -1,0 +1,7 @@
+<p>about works!</p>
+
+<h1 [ngClass]="isActive ? 'text-red-500' : 'text-black'" class="text-5xl">
+  Candra
+</h1>
+
+<button [ngClass]="isActive ? 'bg-red-500' : 'bg-black'" (click)="isActive = !isActive" class="p-3 rounded-xl my-4 text-slate-50 cursor-pointer hover:rounded-4xl transition-all duration-300">Change Color</button>

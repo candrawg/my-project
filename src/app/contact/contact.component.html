@@ -1,0 +1,23 @@
+<p>contact works!</p>
+
+<div class="flex gap-2 w-full mb-2">
+
+  <button (click)="onClick('ig')" class="bg-fuchsia-600 p-3 rounded-xl text-slate-50 cursor-pointer hover:bg-fuchsia-700  hover:rounded-4xl transition-all duration-300 grow">Instagram</button>
+  
+  <button (click)="onClick('fb')" class="bg-blue-600 p-3 rounded-xl text-slate-50 cursor-pointer hover:bg-blue-700  hover:rounded-4xl transition-all duration-300 grow">Facebook</button>
+  
+  <button (click)="onClick('yt')" class="bg-red-500 p-3 rounded-xl text-slate-50 cursor-pointer hover:bg-red-600  hover:rounded-4xl transition-all duration-300 grow">Youtube</button>
+  
+</div>
+
+@switch (socialMedia) {
+  @case ('ig') {
+    <p>Instagram: Candra</p>
+  }
+  @case ('fb') {
+  <p class="text-center">Facebook: Wijaya</p>
+  }
+  @case ('yt') {
+  <p class="text-right">Youtube: Gulo</p>
+  }
+}

@@ -1,0 +1,30 @@
+<p>perpustakaan works!</p>
+
+<h1 class="text-center text-5xl font-semibold text-slate-800 my-4">Perpustakaan</h1>
+
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-12 my-8">
+  @for (buku of dataBuku; track $index) {
+    <div 
+      class="max-w-sm bg-white rounded-2xl shadow-lg shadow-gray-300/40 hover:shadow-2xl hover:shadow-gray-400/50  transition-shadow duration-300 overflow-hidden"
+    >
+      <img 
+        class="w-full h-56 object-cover" 
+        src="{{ buku.image_url }}" 
+        alt="{{ buku.judul }}" 
+      />
+      <div class="p-5">
+        <h5 class="text-xl font-semibold text-gray-900 mb-2 line-clamp-2">
+          {{ buku.judul }}
+        </h5>
+        <p class="text-sm text-gray-600 mb-1">Genre: {{ buku.genre }}</p>
+        <p class="text-sm text-gray-600">Penerbit: {{ buku.penerbit }}</p>
+      </div>
+    </div>
+  }
+</div>
+
+
+
+
+
+<pre class="bg-zinc-100 border border-dashed p-4 my-4">{{ dataBuku | json }}</pre>
